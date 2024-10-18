@@ -10,12 +10,14 @@ void main() async{
   await EasyLocalization.ensureInitialized();
   await serviceLocator();
   user = repo.readUser();
-  runApp(EasyLocalization(
+  runApp(
+    EasyLocalization(
     supportedLocales: const [Locale("en", "EN"), Locale("uz", "UZ"),],
     path: "assets/translation",
     fallbackLocale: const Locale("uz", "UZ"),
     child: const MyApp(),
-  ),);
+   ),
+  );
 }
 
 

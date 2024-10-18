@@ -22,14 +22,14 @@ class _OnboardScreenState extends State<OnboardScreen> {
         alignment: Alignment.bottomCenter,
         children: [
           PageView(
-            onPageChanged: (value){
-              index = value;
-              text ="next";
-              if(index == 2){
-                text="save";
-              }
-              setState(() {});
-            },
+            // onPageChanged: (value){
+            //   index = value;
+            //   text ="next";
+            //   if(index == 2){
+            //     text="save";
+            //   }
+            //   setState(() {});
+            // },
             controller: _pageController,
             // physics: const NeverScrollableScrollPhysics(),
             children: [
@@ -116,7 +116,7 @@ class _OnboardScreenState extends State<OnboardScreen> {
                     Navigator.of(context).pushAndRemoveUntil(MaterialPageRoute(builder: (_)=> const MainHomeScreen()), (route) => false);
                   }
                 }
-                _pageController.animateToPage(index, duration: const Duration(milliseconds: 900), curve: Curves.easeIn);
+                _pageController.jumpToPage(index);
                 setState(() {});
               },
               child: Container(

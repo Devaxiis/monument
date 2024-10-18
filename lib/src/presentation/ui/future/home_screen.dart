@@ -111,7 +111,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                       ),
                                       SizedBox(width: 10),
                                       Text(
-                                        "......",
+                                        "Monument nomini kiriting!",
                                         style: TextStyle(
                                             color: AppColors.colorFFFFFF),
                                       ),

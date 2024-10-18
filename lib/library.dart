@@ -4,7 +4,7 @@ export 'package:monumentuz/src/presentation/ui/future/main_home_screen.dart';
 export 'package:monumentuz/src/utils/constants/colors.dart';
 export 'package:monumentuz/src/presentation/ui/future/onboard_screen.dart';
 export 'package:google_nav_bar/google_nav_bar.dart';
-export 'package:carousel_slider/carousel_slider.dart';
+
 export 'package:monumentuz/src/data/networks/local/local_db.dart';
 export 'package:monumentuz/src/data/networks/remote/remote_db.dart';
 export 'package:monumentuz/src/domain/abstrakt/local/local_repo_abstrakts.dart';

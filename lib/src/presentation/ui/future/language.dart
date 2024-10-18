@@ -34,7 +34,7 @@ class LanguageScreen extends StatelessWidget {
                       autofocus: true,
                       controller: textEditingController,
                       decoration: const InputDecoration(
-                        hintText: "......",
+                        hintText: "Ismingizni kiriting!",
                         border: OutlineInputBorder(
                           borderRadius: BorderRadius.all(Radius.circular(13)),
                           borderSide: BorderSide(

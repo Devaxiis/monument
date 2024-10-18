@@ -34,7 +34,7 @@ class SearchCardWidget extends StatelessWidget {
         decoration: const InputDecoration(
           prefixIcon: Icon(Icons.search),
           prefixIconColor: AppColors.colorFFFFFF,
-          hintText: "......",
+          hintText: "Monument nomini kiriting?",
           hintStyle: TextStyle(
             fontSize: 12,
             fontWeight: FontWeight.w400,
