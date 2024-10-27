@@ -1,8 +1,8 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:monumentuz/library.dart';
-import 'package:monumentuz/src/presentation/ui/future/home_screen.dart';
-import 'package:monumentuz/src/presentation/ui/future/profile_screen.dart';
-import 'package:monumentuz/src/presentation/ui/future/search_screen.dart';
+import 'package:monumentuz/src/presentation/ui/feature/home_screen.dart';
+import 'package:monumentuz/src/presentation/ui/feature/profile_screen.dart';
+import 'package:monumentuz/src/presentation/ui/feature/search_screen.dart';
 
 
 class MainHomeScreen extends StatefulWidget {

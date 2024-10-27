@@ -1,8 +1,8 @@
 export 'package:flutter/material.dart';
-export 'package:monumentuz/src/presentation/ui/future/language.dart';
-export 'package:monumentuz/src/presentation/ui/future/main_home_screen.dart';
+export 'package:monumentuz/src/presentation/ui/feature/language.dart';
+export 'package:monumentuz/src/presentation/ui/feature/main_home_screen.dart';
 export 'package:monumentuz/src/utils/constants/colors.dart';
-export 'package:monumentuz/src/presentation/ui/future/onboard_screen.dart';
+export 'package:monumentuz/src/presentation/ui/feature/onboard_screen.dart';
 export 'package:google_nav_bar/google_nav_bar.dart';
 
 export 'package:monumentuz/src/data/networks/local/local_db.dart';

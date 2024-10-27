@@ -1,6 +1,6 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:monumentuz/library.dart';
-import 'package:monumentuz/src/presentation/ui/future/detail_screen.dart';
+import 'package:monumentuz/src/presentation/ui/feature/detail_screen.dart';
 import 'package:monumentuz/src/presentation/widget/home_card_widget.dart';
 import 'package:monumentuz/src/utils/custom_widget/ui_toast.dart';
 

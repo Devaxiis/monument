@@ -9,7 +9,11 @@ class MapSample extends StatefulWidget {
   final double lat;
   final double long;
 
-  const MapSample({super.key, required this.lat, required this.long,});
+  const MapSample({
+    super.key,
+    required this.lat,
+    required this.long,
+  });
 
   @override
   State<MapSample> createState() => MapSampleState();
@@ -28,14 +32,19 @@ class MapSampleState extends State<MapSample> {
   bool isLoading = false;
 
   LocationData? _currentLocation;
-  late Location location;
+  Location location = Location();
 
   @override
   void initState() {
     super.initState();
-    location = Location();
+
     _getLocation();
-   
+  }
+
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    _getLocation();
   }
 
   Future<void> _getLocation() async {
@@ -66,11 +75,8 @@ class MapSampleState extends State<MapSample> {
     setState(() {
       _currentLocation = _locationData;
     });
-    setState(() {
-      
-    });
+    setState(() {});
   }
- 
 
   _openGoogleMaps() async {
     if (_currentLocation == null) {
@@ -83,21 +89,20 @@ class MapSampleState extends State<MapSample> {
     String destination =
         "${widget.lat},${widget.long}"; // Example destination (Tashkent coordinates)
 
-    Uri googleMapsUrl = Uri.parse("https://www.google.com/maps/dir/?api=1&origin=$latitude,$longitude&destination=$destination&travelmode=driving");
+    Uri googleMapsUrl = Uri.parse(
+        "https://www.google.com/maps/dir/?api=1&origin=$latitude,$longitude&destination=$destination&travelmode=driving");
 
-      
     if (await canLaunchUrl(googleMapsUrl)) {
       await launchUrl(googleMapsUrl);
     } else {
       throw 'Could not open the map.';
     }
-    setState((){});
-    setState((){});
-    setState((){});
-    setState((){});
-    setState((){});
-    setState((){});
-  
+    setState(() {});
+    setState(() {});
+    setState(() {});
+    setState(() {});
+    setState(() {});
+    setState(() {});
   }
 
   @override

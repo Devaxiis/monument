@@ -1,9 +1,9 @@
 import 'dart:developer';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:monumentuz/library.dart';
-import 'package:monumentuz/src/presentation/ui/future/edit__profile.dart';
-import 'package:monumentuz/src/presentation/ui/future/logout_screen.dart';
-import 'package:monumentuz/src/presentation/ui/future/about_screen.dart';
+import 'package:monumentuz/src/presentation/ui/feature/edit__profile.dart';
+import 'package:monumentuz/src/presentation/ui/feature/logout_screen.dart';
+import 'package:monumentuz/src/presentation/ui/feature/about_screen.dart';
 import 'package:monumentuz/src/presentation/widget/language_card_widget.dart';
 import 'package:monumentuz/src/presentation/widget/profile_card_widget.dart';
 

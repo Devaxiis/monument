@@ -6,7 +6,7 @@ import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:location/location.dart';
 import 'package:monumentuz/library.dart';
 import 'package:monumentuz/src/domain/models/remote_models.dart/all_monument_list_data_model.dart';
-import 'package:monumentuz/src/presentation/ui/future/google_map_screen.dart';
+import 'package:monumentuz/src/presentation/ui/feature/google_map_screen.dart';
 import 'package:monumentuz/src/presentation/widget/outlined_back_widget.dart';
 import 'package:monumentuz/src/utils/custom_widget/ui_toast.dart';
 
